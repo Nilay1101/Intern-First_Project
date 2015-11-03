@@ -41,6 +41,7 @@
                 
          });
         </script>
+		
         <script>
 		$(document).ready(function() {
         $('#select_sport').multiselect({
@@ -53,6 +54,23 @@
 		
     });
 </script>
+
+<script> 
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("#part").animate({
+            opacity: '1.0'
+        });
+    });
+	
+	$("#hide").click(function(){
+        $("#part").animate({
+            opacity: '0.0'
+        });
+    });
+});
+</script>
+
 
             <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
 <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
@@ -165,6 +183,11 @@
 		margin: auto;
 		display: block;
 	}
+
+#part {
+	opacity:0.0;
+}	
+	
 </style>
     <body>
         <header class="header" >
@@ -440,25 +463,82 @@
             </div>
         </div>
         <br>
-		<div class="row padding">
+		<div class="row padding" style="padding-left:120px ; padding-right:120px">
 		<div class="find_out"><h1>Explore Various Sports In Your City</h1></div>
         <hr class="hr">
-		<div class="col-lg-8"><img class="img-responsive" style="height:260px;padding-left:100px"src="images/shot01.jpg"></div>
-		<div class="col-lg-4"><img class="img-responsive" style="height:260px;padding-right:100px"src="images/shot02.jpg"></div>
+		<div class="col-lg-8"><img class="img-responsive" style="height:260px;"src="images/shot01.jpg"></div>
+		<div class="col-lg-4"><img class="img-responsive" style="height:260px;"src="images/shot02.jpg"></div>
 		</div>
 		<br>
-		<div class="row">
-		<div class="col-lg-4"><img class="img-responsive" style="height:290px; width:430px; padding-left:100px" src="images/shot03.jpg"></div>
-		<div class="col-lg-4"><img class="img-responsive"src="images/shot04.jpg"></div>
-		<div class="col-lg-4"><img class="img-responsive" style="height:290px;padding-right:100px" src="images/shot05.jpg"></div>
+		<div class="row" style="padding-left:120px ; padding-right:120px ; margin-top:10px">
+		<div class="col-lg-4"><img class="img-responsive" style="height:260px; width:430px; " src="images/shot03.jpg"></div>
+		<div class="col-lg-4"><img class="img-responsive" style="height:260px; " src="images/shot04.jpg"></div>
+		<div class="col-lg-4"><img class="img-responsive" style="height:260px; " src="images/shot05.jpg"></div>
 		</div>
-<br><br><br><br>
-<div class="row">
-<div class="col-lg-4"><div class="find_out"><h1>Coaches</h1><hr class="hr0"></div></div>
-<div class="col-lg-4"><div class="find_out"><h1>Academies</h1><hr class="hr0"></div></div>
-<div class="col-lg-4"><div class="find_out"><h1>Venues</h1><hr class="hr0"></div></div>
+
+<div class="row" style="padding-left:120px; padding-right:120px">
+<div class="col-lg-4"><div class="find_out"><h2>Coaches</h2><hr class="hr0"></div></div>
+<div class="col-lg-4"><div class="find_out"><h2>Academies</h2><hr class="hr0"></div></div>
+<div class="col-lg-4"><div class="find_out"><h2>Venues</h2><hr class="hr0"></div></div>
 </div>
-   
+
+<div id="part0">
+<div class="row" style="padding-left:120px; padding-right:120px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+<div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+<div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+<div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+</div>
+
+<div id="part">
+<div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+<div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+<div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+<div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+<div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
+        <div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+		<div class="col-lg-4"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.jpg"></a></div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12 text-center">
+<button id="show">Show More</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id="hide">Show Less</button>
+</div>
+</div>
+
         <?php //include 'share.php';?>
 		<br><br>
 		<div class="row">
