@@ -1,0 +1,143 @@
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:200,300,400);
+@font-face{
+ font-family: "Ubuntu";
+ 
+  
+
+}
+body{
+    font-family: Ubuntu;
+    font-weight: 200;
+}
+.jumbotron {
+    background-color: #3f99c3;
+    font-weight: 300;
+    margin-top: 26px;
+    
+}
+
+.jumbotron h2{
+    font-weight: 300;
+    font-stretch:  extra-expanded;
+}
+
+.form-control{
+    opacity: 1;
+}
+.capt {
+    background-color: #3f99c3;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.table-responsive table th{
+    background-color: #1e6dce;
+    font-weight: 300;
+    border-radius: 3px;
+    color: white;
+}
+
+.table-responsive table a{
+    color: black;
+    font-weight: 200;
+}
+
+.form-group select,button{
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.header{
+    font-size: 18px;
+    height: 15%;
+    
+}
+.header img{
+    width: 33%;
+    margin-top:-1%;
+}
+
+.nav li{
+    padding-right: 50px;
+    padding-bottom: 2%;
+    font-weight: 300;
+}
+
+.carousel{
+    //width: 800px;
+    margin-top: 450px;
+    height: 70%;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel img{
+    width: 100%;
+}
+
+.carousel-indicators li{
+    border-radius: 20px;
+    border-color: yellow;
+    width: 40px;
+    height: 40px;
+    text-indent: 0;
+    background: yellow;
+    color: #3f99c3;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+    
+    
+}
+
+.carousel-indicators li.active{
+    border-radius: 20px;
+    border-color: #3f99c3;
+    width: 40px;
+    height: 40px;
+    background: #3f99c3;
+    color:yellow;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.box{
+    background-color: #ffcc66;
+    height: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.9;
+   
+}
+
+.box h5 a{
+    color: black;
+}
+.box-response{
+    background-color: #3f99c3;
+    height: 15%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.right img{
+    //background: url('images/Arrow_Right.png');
+    margin-top: 95%;
+    width: 70%;
+}
+.left img{
+    margin-top: 95%;
+    transform: rotate(180deg);
+    width: 70%;
+}
+
+
+
