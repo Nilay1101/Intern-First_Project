@@ -29,6 +29,8 @@
             </li>
             <li><a href="#">Academy</a></li>
             <li><a href="#">Tournament</a></li>
+			 <li><a href="#">Coach</a></li>
+			  <li><a href="#">Venue</a></li>
              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
                 <ul class="dropdown-menu inside-li">
