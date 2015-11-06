@@ -184,4 +184,5 @@ $(document).ready(function(){
 <button id="show">Show More</button>
 </div>
 </div>
-
+</body>
+</html>
