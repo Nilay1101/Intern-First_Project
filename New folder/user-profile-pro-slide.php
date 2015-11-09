@@ -108,6 +108,38 @@ $(function(){
   border-radius: 50%;
 }
 
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn.sharp {
+  border-radius:0;
+}
+
+
+
 </style>
 
 <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
@@ -177,18 +209,18 @@ $(function(){
 </div>
 <div class="row" style="margin-left:100px;margin-right:90px;margin-top:0px">
 <div class="col-lg-12 text-center" style="border:0px solid white;" >
-<div style="background:white;margin-right:20px; height:50px; width:100%; border:0px solid black; border-radius:25px; text-align:left;padding-top:15px;padding-left:20px"><strong>
+<div style="margin-right:20px; height:50px;text-align:left;padding-top:15px;padding-left:20px"><strong>
 <div class="row">
 <div class="col-lg-3"><strong>Username</strong></div>
 <div class="col-lg-9">sports played and other details</div>
 </div>
 </div>
 <div style="margin-top:-10px;  text-align:left">
-<a href="#about"><button  type="button" class="btn btn-info">About Me</button></a>
-<a href="#career"><button  type="button" class="btn btn-info">Career </button></a>
-<a href="#gallery"><button  type="button" class="btn btn-info">Gallery</button></a>
-<a href="#test"><button  type="button" class="btn btn-info">Testimonials</button></a>
-<a href="#contact"><button  type="button" class="btn btn-info">Contact Me</button></a>
+<a href="#about"><button  type="button" class="btn btn-primary sharp">About Me</button></a>
+<a href="#career"><button  type="button" class="btn btn-primary sharp">Career </button></a>
+<a href="#gallery"><button  type="button" class="btn btn-primary sharp">Gallery</button></a>
+<a href="#test"><button  type="button" class="btn btn-primary sharp">Testimonials</button></a>
+<a href="#contact"><button  type="button" class="btn btn-primary sharp">Contact Me</button></a>
 </div>
 <div id="about" class=" ">
 <h4 style="text-align:left; "><br><br><strong>About me  : </strong><p style="text-align:left"><br> t e x t   h e r e</p></h4><br>

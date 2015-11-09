@@ -108,6 +108,36 @@ $(function(){
   border-radius: 50%;
 }
 
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn.sharp {
+  border-radius:0;
+}
+
 </style>
 
 <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
@@ -182,13 +212,13 @@ $(function(){
 
 
 <div class="col-lg-9 text-center" style="border:0px solid white;" >
-<div style="background:white;margin-right:20px; height:50px; width:850px; border:0px solid black; border-radius:25px; text-align:left;padding-top:15px;padding-left:20px"><strong>Event name</strong> , Event Start Date - Event End Date</div>
+<div style="margin-right:20px; height:50px;text-align:left;padding-top:15px;padding-left:20px"><strong>Event name</strong> , Event Start Date - Event End Date</div>
 <div style="margin-top:-10px;  text-align:left">
-<a href="#about"><button type="button" class="btn btn-info">About</button></a>
-<a href="#service"><button type="button" class="btn btn-info">Services </button></a>
-<a href="#details"><button type="button" class="btn btn-info">Details</button></a>
-<a href="#gallery"><button type="button" class="btn btn-info">Gallery</button></a>
-<a href="#review"><button type="button" class="btn btn-info">Reviews</button></a>
+<a href="#about"><button type="button" class="btn btn-primary sharp">About</button></a>
+<a href="#service"><button type="button" class="btn btn-primary sharp">Services </button></a>
+<a href="#details"><button type="button" class="btn btn-primary sharp">Details</button></a>
+<a href="#gallery"><button type="button" class="btn btn-primary sharp">Gallery</button></a>
+<a href="#review"><button type="button" class="btn btn-primary sharp">Reviews</button></a>
 </div>
 <div id="about" class=" ">
 <h4 style="text-align:left; "><br><br><strong>About the event  : </strong><p style="text-align:left"><br> t e x t   h e r e</p></h4><br>
