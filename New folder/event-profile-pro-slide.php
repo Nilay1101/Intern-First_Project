@@ -108,7 +108,7 @@ $(function(){
   border-radius: 50%;
 }
 
-.btn {
+.btn0 {
     padding: 14px 24px;
     border: 0 none;
     font-weight: 700;
@@ -116,28 +116,27 @@ $(function(){
     text-transform: uppercase;
 }
  
-.btn:focus, .btn:active:focus, .btn.active:focus {
+.btn0:focus, .btn0:active:focus, .btn0.active:focus {
     outline: 0 none;
 }
  
-.btn-primary {
+.btn0-primary {
     background: #0099cc;
     color: #ffffff;
 }
  
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn0-primary:hover, .btn0-primary:focus, .btn0-primary:active, .btn0-primary.active, .open > .dropdown-toggle.btn0-primary {
     background: #33a6cc;
 }
  
-.btn-primary:active, .btn-primary.active {
+.btn0-primary:active, .btn0-primary.active {
     background: #007299;
     box-shadow: none;
 }
 
-.btn.sharp {
+.btn0.sharp {
   border-radius:0;
 }
-
 </style>
 
 <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
@@ -214,11 +213,11 @@ $(function(){
 <div class="col-lg-9 text-center" style="border:0px solid white;" >
 <div style="margin-right:20px; height:50px;text-align:left;padding-top:15px;padding-left:20px"><strong>Event name</strong> , Event Start Date - Event End Date</div>
 <div style="margin-top:-10px;  text-align:left">
-<a href="#about"><button type="button" class="btn btn-primary sharp">About</button></a>
-<a href="#service"><button type="button" class="btn btn-primary sharp">Services </button></a>
-<a href="#details"><button type="button" class="btn btn-primary sharp">Details</button></a>
-<a href="#gallery"><button type="button" class="btn btn-primary sharp">Gallery</button></a>
-<a href="#review"><button type="button" class="btn btn-primary sharp">Reviews</button></a>
+<a href="#about"><button type="button" class="btn0 btn0-primary sharp">About</button></a>
+<a href="#service"><button type="button" class="btn0 btn0-primary sharp">Services </button></a>
+<a href="#details"><button type="button" class="btn0 btn0-primary sharp">Details</button></a>
+<a href="#gallery"><button type="button" class="btn0 btn0-primary sharp">Gallery</button></a>
+<a href="#review"><button type="button" class="btn0 btn0-primary sharp">Reviews</button></a>
 </div>
 <div id="about" class=" ">
 <h4 style="text-align:left; "><br><br><strong>About the event  : </strong><p style="text-align:left"><br> t e x t   h e r e</p></h4><br>
@@ -269,14 +268,14 @@ $(function(){
 
 <div class="col-lg-3 text-center" style="border:0px solid white;" >
 <br><br>
-<button type="button" class="btn btn-info">Registrations</button>
+<button type="button" class="btn0 btn0-primary sharp">Registrations</button>
 <h5 style="text-align:left; "><br><br><strong>Details : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Deadline : (last day) </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Fee : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Registration address : ( location ) </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Timings : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Offers : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5><br>
-<button type="button" class="btn btn-info">Contact Us</button>
+<button type="button" class="btn0 btn0-primary sharp">Contact Us</button>
 <h5 style="text-align:left; "><br><br><strong>Organiser Team Contact person : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Official contact number : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Mobile numbers : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>

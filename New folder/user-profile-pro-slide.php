@@ -108,7 +108,7 @@ $(function(){
   border-radius: 50%;
 }
 
-.btn {
+.btn0 {
     padding: 14px 24px;
     border: 0 none;
     font-weight: 700;
@@ -116,30 +116,27 @@ $(function(){
     text-transform: uppercase;
 }
  
-.btn:focus, .btn:active:focus, .btn.active:focus {
+.btn0:focus, .btn0:active:focus, .btn0.active:focus {
     outline: 0 none;
 }
  
-.btn-primary {
+.btn0-primary {
     background: #0099cc;
     color: #ffffff;
 }
  
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn0-primary:hover, .btn0-primary:focus, .btn0-primary:active, .btn0-primary.active, .open > .dropdown-toggle.btn0-primary {
     background: #33a6cc;
 }
  
-.btn-primary:active, .btn-primary.active {
+.btn0-primary:active, .btn0-primary.active {
     background: #007299;
     box-shadow: none;
 }
 
-.btn.sharp {
+.btn0.sharp {
   border-radius:0;
 }
-
-
-
 </style>
 
 <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
@@ -216,11 +213,11 @@ $(function(){
 </div>
 </div>
 <div style="margin-top:-10px;  text-align:left">
-<a href="#about"><button  type="button" class="btn btn-primary sharp">About Me</button></a>
-<a href="#career"><button  type="button" class="btn btn-primary sharp">Career </button></a>
-<a href="#gallery"><button  type="button" class="btn btn-primary sharp">Gallery</button></a>
-<a href="#test"><button  type="button" class="btn btn-primary sharp">Testimonials</button></a>
-<a href="#contact"><button  type="button" class="btn btn-primary sharp">Contact Me</button></a>
+<a href="#about"><button  type="button" class="btn0 btn0-primary sharp">About Me</button></a>
+<a href="#career"><button  type="button" class="btn0 btn0-primary sharp">Career </button></a>
+<a href="#gallery"><button  type="button" class="btn0 btn0-primary sharp">Gallery</button></a>
+<a href="#test"><button  type="button" class="btn0 btn0-primary sharp">Testimonials</button></a>
+<a href="#contact"><button  type="button" class="btn0 btn0-primary sharp">Contact Me</button></a>
 </div>
 <div id="about" class=" ">
 <h4 style="text-align:left; "><br><br><strong>About me  : </strong><p style="text-align:left"><br> t e x t   h e r e</p></h4><br>

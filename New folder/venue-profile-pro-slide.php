@@ -108,7 +108,7 @@ $(document).ready(function(){
   border-radius: 50%;
 }
 
-.btn {
+.btn0 {
     padding: 14px 24px;
     border: 0 none;
     font-weight: 700;
@@ -116,28 +116,27 @@ $(document).ready(function(){
     text-transform: uppercase;
 }
  
-.btn:focus, .btn:active:focus, .btn.active:focus {
+.btn0:focus, .btn0:active:focus, .btn0.active:focus {
     outline: 0 none;
 }
  
-.btn-primary {
+.btn0-primary {
     background: #0099cc;
     color: #ffffff;
 }
  
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn0-primary:hover, .btn0-primary:focus, .btn0-primary:active, .btn0-primary.active, .open > .dropdown-toggle.btn0-primary {
     background: #33a6cc;
 }
  
-.btn-primary:active, .btn-primary.active {
+.btn0-primary:active, .btn0-primary.active {
     background: #007299;
     box-shadow: none;
 }
 
-.btn.sharp {
+.btn0.sharp {
   border-radius:0;
 }
-
 </style>
 
 <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
@@ -214,11 +213,11 @@ $(document).ready(function(){
 <div class="col-lg-9 text-center" style="border:0px solid white;" >
 <div style="margin-right:20px; height:50px; text-align:left;padding-top:15px;padding-left:20px"><strong>Venue name</strong> , sports used for</div>
 <div style="margin-top:-10px;  text-align:left">
-<a href="#about"><button type="button" class="btn btn-primary sharp">About</button></a>
-<a href="#service"><button type="button" class="btn btn-primary sharp">Services </button></a>
-<a href="#event"><button type="button" class="btn btn-primary sharp">Events</button></a>
-<a href="#gallery"><button type="button" class="btn btn-primary sharp">Gallery</button></a>
-<a href="#review"><button type="button" class="btn btn-primary sharp">Reviews</button></a>
+<a href="#about"><button type="button" class="btn0 btn0-primary sharp">About</button></a>
+<a href="#service"><button type="button" class="btn0 btn0-primary sharp">Services </button></a>
+<a href="#event"><button type="button" class="btn0 btn0-primary sharp">Events</button></a>
+<a href="#gallery"><button type="button" class="btn0 btn0-primary sharp">Gallery</button></a>
+<a href="#review"><button type="button" class="btn0 btn0-primary sharp">Reviews</button></a>
 </div>
 <div id="about" class=" ">
 <h4 style="text-align:left; "><br><br><strong>About the venue  : </strong><p style="text-align:left"><br> t e x t   h e r e</p></h4><br>
@@ -271,14 +270,14 @@ December 2016 - Jawahar Cup - Hockey League - 16 teams</p>
 
 <div class="col-lg-3 text-center" style="border:0px solid white;" >
 <br><br>
-<button type="button" class="btn btn-info">Booking Details</button>
+<button type="button" class="btn0 btn0-primary sharp">Booking Details</button>
 <h5 style="text-align:left; "><br><br><strong>Fees details : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Contact person name  : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Contact person number : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Contact person Email : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Owner’s Name : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Owner’s Contact (if provided), Email ID : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5><br>
-<button type="button" class="btn btn-info">Contact Us</button>
+<button type="button" class="btn0 btn0-primary sharp">Contact Us</button>
 <h5 style="text-align:left; "><br><br><strong>Complete Address : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Pincode : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
 <h5 style="text-align:left; "><br><br><strong>Official telephone : </strong><p style="text-align:center"><br> t e x t   h e r e</p></h5>
