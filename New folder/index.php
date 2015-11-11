@@ -424,23 +424,18 @@ you to reach your goals.</p><br>
                 <li data-target="#myCarousel" data-slide-to="0" class="active">1</li>
                 <li data-target="#myCarousel" data-slide-to="1">2</li>
                 <li data-target="#myCarousel" data-slide-to="2">3</li>
-                <li data-target="#myCarousel" data-slide-to="3">4</li>
             </ol>
             
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="images/img1.jpg">
+                    <a href="#"><img src="images/img1.jpg"></a>
                 </div>
                 <div class="item">
-                    <img src="images/img2.jpg" >
+                    <a href="#"><img src="images/img2.jpg" ></a>
                 </div>
                 <div class="item ">
-                    <img src="images/img3.jpg" >
-                </div>
-                <div class="item">
-                    <img src="images/img4.jpg" >
-                </div>
-                 
+                    <a href="#"><img src="images/img3.jpg" ></a>
+                </div>              
             </div>
             
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -501,19 +496,19 @@ you to reach your goals.</p><br>
 		</div>
        <br>
 	   <div class="row" style="padding-left:120px; padding-right:120px">
-	   <div class="col-lg-6 text-center" style="background-image: url(images/cricket.png); height:250px ; width:550px; opacity:0.8; margin-right:15px"><h1 style="color:white; font-weight: bold;margin-top:125px;">Cricket</h1></div>
-	   <div class="col-lg-6 text-center" style="background-image: url(images/basketball.jpg); height:250px ; width:550px; opacity:0.8;  margin-left:15px"><h1 style="color:white; font-weight: bold;margin-top:125px">Basketball</h1></div>
+	   <a href="#"><div class="col-lg-6 text-center" style="background-image: url(images/cricket.png); height:250px ; width:550px; opacity:0.8; margin-right:15px"><h1 style="color:white; font-weight: bold;margin-top:125px;">Cricket</h1></div></a>
+	    <a href="#"><div class="col-lg-6 text-center" style="background-image: url(images/basketball.jpg); height:250px ; width:550px; opacity:0.8;  margin-left:15px"><h1 style="color:white; font-weight: bold;margin-top:125px">Basketball</h1></div></a>
 	   </div>
-	   <div class="row" style="padding-left:120px; padding-right:120px; margin-top:30px">
-	    <div class="col-lg-4 text-center" style="background-image: url(images/table.jpg); height:250px ; width:355px; opacity:0.8; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px">Table Tennis</h2></div>
-		<div class="col-lg-4 text-center" style="background-image: url(images/athletics.jpg); height:250px ; width:355px; opacity:0.8;  margin-left:15px; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px">Athletics</h2></div>
-		<div class="col-lg-4 text-center" style="background-image: url(images/badminton.jpg); height:250px ; width:357px; opacity:0.8;  margin-left:15px"><h2 style="color:white; font-weight: bold;margin-top:125px">Badminton</h2></div>
+	    <div class="row" style="padding-left:120px; padding-right:120px; margin-top:30px">
+	     <a href="#"><div class="col-lg-4 text-center" style="background-image: url(images/table.jpg); height:250px ; width:355px; opacity:0.8; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px">Table Tennis</h2></div></a>
+		 <a href="#"><div class="col-lg-4 text-center" style="background-image: url(images/athletics.jpg); height:250px ; width:355px; opacity:0.8;  margin-left:15px; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px">Athletics</h2></div></a>
+		 <a href="#"><div class="col-lg-4 text-center" style="background-image: url(images/badminton.jpg); height:250px ; width:357px; opacity:0.8;  margin-left:15px"><h2 style="color:white; font-weight: bold;margin-top:125px">Badminton</h2></div></a>
 	   </div>
 	   <div class="row" style="padding-left:120px; padding-right:120px;  margin-top:30px">
-	   <div class="col-lg-3 text-center"  style="background-image: url(images/football.jpg); height:250px ; width:260px; opacity:0.8; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Football</h2></div>
-	   <div class="col-lg-3 text-center" style="background-image: url(images/swimming.jpg); height:250px ; width:260px; opacity:0.8;  margin-left:15px; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Swimming</h2></div>
-	   <div class="col-lg-3 text-center" style="background-image: url(images/hockey.jpg); height:250px ; width:260px; opacity:0.8;  margin-left:15px; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Hockey</h2></div>
-	   <div class="col-lg-3 text-center" style="background-image: url(images/weight.jpg); height:250px ; width:260px; opacity:0.8;  margin-left:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Weightlifting</h2></div>
+	    <a href="#"><div class="col-lg-3 text-center"  style="background-image: url(images/football.jpg); height:250px ; width:260px; opacity:0.8; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Football</h2></div></a>
+	    <a href="#"><div class="col-lg-3 text-center" style="background-image: url(images/swimming.jpg); height:250px ; width:260px; opacity:0.8;  margin-left:15px; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Swimming</h2></div></a>
+	    <a href="#"><div class="col-lg-3 text-center" style="background-image: url(images/hockey.jpg); height:250px ; width:260px; opacity:0.8;  margin-left:15px; margin-right:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Hockey</h2></div></a>
+	    <a href="#"><div class="col-lg-3 text-center" style="background-image: url(images/weight.jpg); height:250px ; width:260px; opacity:0.8;  margin-left:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Weightlifting</h2></div></a>
 	   </div>
 	   
 <div class="row" style="padding-left:120px; padding-right:120px">
