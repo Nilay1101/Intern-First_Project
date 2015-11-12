@@ -428,13 +428,13 @@ you to reach your goals.</p><br>
             
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <a href="#"><img src="images/img1.jpg"></a>
+                    <a href="#"><img class="img-responsive" style="width:1350; height:480" src="images/shot01.jpg"></a>
                 </div>
                 <div class="item">
-                    <a href="#"><img src="images/img2.jpg" ></a>
+                    <a href="#"><img class="img-responsive" style="width:1350; height:480" src="images/shot02.jpg" ></a>
                 </div>
                 <div class="item ">
-                    <a href="#"><img src="images/img3.jpg" ></a>
+                    <a href="#"><img class="img-responsive" style="width:1350; height:480" src="images/shot03.jpg" ></a>
                 </div>              
             </div>
             
