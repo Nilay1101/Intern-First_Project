@@ -1,4 +1,4 @@
-: 30 Oct 2015
-: Official files removed
+: 13 Nov 2015
+: T&C , suggested layouts removed
 : AWS
 : Nilay1101
