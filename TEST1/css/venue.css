@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:200,300,400);
+@font-face{
+ font-family: "Ubuntu";
+}
+body{
+    font-family: Ubuntu;
+    font-weight: 200;
+}
+.name{
+    background-color: #3f99c3;
+    margin-top: 27px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+.carousel{
+    //width: 800px;
+    margin-top:10px;
+    height: 400px;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel img{
+    width: 100%;
+}
+
+.carousel-control img{
+    width: 100px;
+    margin-top: 170%;
+}
+
+.circle{
+    background-color: #14a43e;
+    border-radius: 55px;
+    height: 110px;
+    width: 110px;
+    padding-top: 43px;
+    margin-left: 15px;
+    color:white;
+    background:#14a43e url('../images/pattern.png') top repeat ;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+.info btn{
+    height: 70px;
+    width: 130px;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+.info{
+    margin-top: 15px;
+    
+}
+
+.capt {
+    background-color: #3f99c3;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+
+.box{
+    background-color: #3f99c3;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+.jumbotron:hover{
+    transition: linear 0.3s;
+    transform: scale(1.015);
+    
+}
+.carousel-control:hover{
+    color: yellow;
+}
+
+.carousel-indicators li{
+    border-radius: 20px;
+    border-color: yellow;
+    width: 40px;
+    height: 40px;
+    text-indent: 0;
+    background: yellow;
+    color: #3f99c3;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+    
+    
+}
+
+.carousel-indicators li.active{
+    border-radius: 20px;
+    border-color: #3f99c3;
+    width: 40px;
+    height: 40px;
+    background: #3f99c3;
+    color:yellow;
+    padding-top: 10px;
+    margin-left: 20px;
+}

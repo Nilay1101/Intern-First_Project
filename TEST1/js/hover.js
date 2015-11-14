@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').slideDown(330);
+        },
+        function(){
+            $(this).find('.caption').slideUp(330);
+        }
+    );
+});
