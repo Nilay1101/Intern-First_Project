@@ -18,10 +18,6 @@ body{
     background-color: #3f99c3;
     color: white;
 }
-.jumbotron:hover{
-    transition: linear 0.3s;
-    transform: scale(1.015);
-}
 
 .profile-jumbo:hover{
     transition: linear 0.3s;

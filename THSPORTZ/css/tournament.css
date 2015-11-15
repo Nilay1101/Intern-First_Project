@@ -95,10 +95,7 @@ border:2px solid grey;
     color: black;
 
 }
-.jumbotron:hover{
-    transition: linear 0.3s;
-    transform: scale(1.015);
-}
+
 
 
 

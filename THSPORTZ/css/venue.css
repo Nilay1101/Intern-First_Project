@@ -64,10 +64,6 @@ border:2px solid grey;
     background-color: #F4F4F4;
     color: black;
 }
-.jumbotron:hover{
-    transition: linear 0.3s;
-    transform: scale(1.015);
-}
 .carousel-control:hover{
     color: yellow;
 }

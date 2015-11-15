@@ -17,10 +17,7 @@ body{
 	border:2px solid grey;
     color: black;
 }
-.details:hover{
-    transition: linear 0.3s;
-    transform: scale(1.015);
-}
+
 .profile-jumbo{
     background-image: url('../images/img1.jpg');
     background-size: 100%;

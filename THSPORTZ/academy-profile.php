@@ -32,6 +32,32 @@ $('.SeeMore2').click(function(){
 		}
 	});
 	</script>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var maxLength = 300;
+	$(".show-read-more").each(function(){
+		var myStr = $(this).text();
+		if($.trim(myStr).length > maxLength){
+			var newStr = myStr.substring(0, maxLength);
+			var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+			$(this).empty().html(newStr);
+			$(this).append(' <a href="javascript:void(0);" class="read-more">read more...</a>');
+			$(this).append('<span class="more-text">' + removedStr + '</span>');
+		}
+	});
+	$(".read-more").click(function(){
+		$(this).siblings(".more-text").contents().unwrap();
+		$(this).remove();
+	});
+});
+</script>
+<style type="text/css">
+    .show-read-more .more-text{
+        display: none;
+    }
+</style>
     </head>
     <body>
         <header class="header">
@@ -223,18 +249,54 @@ $('.SeeMore2').click(function(){
                             </div>
 							<br><br>
                             <div style="margin-top:-35px;"class="jumbotron details">
-                                <h4>Comments/ Reviews</h4>
+                                <h4 >Reviews & Comments</h4>
+								<br>
 								<div class="accordion" id="accordion2">
   <div class="accordion-group">
     <div class="accordion-heading">
-    <blockquote>1. Adorable. The location's prefect </blockquote>
-	<blockquote>2. The services lack quality</blockquote>
+	<!-- insert first review and repective comment here inside para-->
+    <p>
+	<strong>1. Username:<br></strong>
+	<p class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</p>
+	<h4>Comments</h4>
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. </blockquote><!-- insert first comment here -->
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</blockquote><!-- insert second comment here  and so on-->
+	</p>
+		<!-- insert second review and repective comment here inside para-->
+    <p>
+	<strong>2. Username:<br></strong>
+	<p class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</p>
+	<h4>Comments</h4>
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. </blockquote><!-- insert first comment here -->
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</blockquote><!-- insert second comment here  and so on-->
+	</p>
     </div>
     <div id="collapseTwo" class="accordion-body collapse">
       <div class="accordion-inner">
- <blockquote>3. Good all together</blockquote>
- <blockquote>4. Luky to be here</blockquote>
- <blockquote>5. An acadmey we can talk of</blockquote>
+	<!-- insert remaining review and repective comment here inside para-->
+    <p>
+	<strong>3. Username:<br></strong>
+	<p class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</p>
+	<h4>Comments</h4>
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. </blockquote><!-- insert first comment here -->
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</blockquote><!-- insert second comment here  and so on-->
+	</p>
+		<!-- insert remaining review and repective comment here inside para-->
+    <p>
+	<strong>4. Username:<br></strong>
+	<p class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</p>
+	<h4>Comments</h4>
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. </blockquote><!-- insert first comment here -->
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</blockquote><!-- insert second comment here  and so on-->
+	</p>
+		<!-- insert remaining review and repective comment here inside para-->
+    <p>
+	<strong>5. Username:<br></strong>
+	<p class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</p>
+	<h4>Comments</h4>
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. </blockquote><!-- insert first comment here -->
+	<blockquote class="show-read-more">Avatar is a 2009 American epic science fiction motion capture film written and directed by James Cameron, and starring Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi and Sigourney Weaver. Following the film's success, Cameron signed with 20th Century Fox to produce two sequels, making Avatar the first of a planned trilogy.A former Marine named Jake limping selected to join the Avatar program and sent to another planet called Pandora. In Pandora, which is a Na'vi tribe living primitive animals are similar and have the ability as human beings. Na'vi tribe considers that the arrival of humans the earth as a threat, then the war broke out between the human world with Na'vi tribe. Because humans can not breathe earth directly on the planet Pandora, then Jake was changed to a figure like a tribe of Na'vi in order to mingle. Jake also explore the planet Pandora, after meeting with a woman named tribe Na'vi Neytiri, Jake fell in love with her. Finally, Jake is faced with a confused where he must decide which side should be defended, as both a determinant of the fate of the earth and tribal Na'vi.</blockquote><!-- insert second comment here  and so on-->
+	</p>
       </div>
     </div>
     <button class="SeeMore2" data-toggle="collapse" href="#collapseTwo">Read More</button>
