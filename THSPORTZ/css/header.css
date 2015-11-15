@@ -1,0 +1,109 @@
+.header{
+    font-size: 16px;
+    
+}
+.header img{
+    width: 25%;
+    //margin-top:0.3%;
+    
+}
+.nav li{
+    //padding-left: 5px;
+    padding-bottom: 12%;
+    padding-top: 12%;
+    font-weight: 300;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+    transition:padding 0.4s linear;
+}
+.affix img{
+    //width: 24%;
+    margin-top: -1.9%;
+    //margin-left: 1%;
+    transition: linear 0.25s;
+}
+.affix li{
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+.affix-top {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    -webkit-transition:padding 0.3s linear;
+    -moz-transition:padding 0.3s linear;  
+    -o-transition:padding 0.3s linear;         
+    transition:padding 0.3s linear;
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(119,119,119);
+    //position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 10px 10px 10px 10px gray;
+    //border-radius: 20px 20px 2px 2px;
+}
+footer li{
+    margin-top: 7px;
+}
+footer li a{
+    color: white;
+    font-size: 110%;
+    margin-right: 10px;
+}
+footer li a:hover{
+    color: black;
+    text-decoration: none;
+    transition: linear 0.25s;
+}
+.carousel-control:hover{
+    color: yellow;
+    transition: linear 0.2s;
+}
+.carousel-indicators li:hover{
+    transform: scale(1.075);
+    transition: linear 0.2s;
+    border-color: #3f99c3;
+    color:yellow;
+    background: #3f99c3;
+}
+.box-response{
+    background-color: #3f99c3;
+    height: 15%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.table{
+    border-radius: 20px 20px;
+    
+}
+
+.table-responsive table th{
+    background-color: #1e6dce;
+    font-weight: 300;
+    border-radius: 3px;
+    color: white;
+    background:#1e6dce url('../images/pattern.png') top repeat ;
+}
+
+.table-responsive table a{
+    color: black;
+    font-weight: 200;
+}
+.table-responsive table tr:hover{
+    transition: linear 0.15s;
+}
+.table-responsive table a:hover{
+    text-decoration: none;
+    color: #1e6dce;
+    transition: linear 0.15s;
+}
+.breadcrumb li a:hover{
+    transition: linear 0.3s;
+    text-decoration: none;
+    color:black;
+}
