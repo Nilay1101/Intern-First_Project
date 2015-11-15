@@ -1,7 +1,7 @@
 
 <html>
     <head>
-        <title>Tournament Sportz.com</title>
+        <title>Tournament-Profile</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.0, maximum-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -11,6 +11,19 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </head>
+	
+	<script>
+$('.SeeMore2').click(function(){
+		var $this = $(this);
+		$this.toggleClass('SeeMore2');
+		if($this.hasClass('SeeMore2')){
+			$this.text('See More');			
+		} else {
+			$this.text('See Less');
+		}
+	});
+	</script>
+	
     <body>
         <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="40">
@@ -119,8 +132,8 @@
                                         <h2>Contact Details</h2>
                                         <h4>Phone:897481974</h4>
                                     </div>
-									<br>
-									<a href="#"><h6>Read more...</h6></a>
+
+									
                                 </div>
                             
                         </div>
@@ -128,8 +141,7 @@
                     <div class="col-md-6">
                         <div class="container-fluid text-center box">                           
                                 <h2>About the Tournament</h2>								                            
-                               <br>                           
-<a href="#"><h6>Read more...</h6></a>								
+                               <br>                           								
                         </div>
 						<div style="margin-top:5px;"class=" ">
                                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
@@ -158,14 +170,31 @@
                         </a>
                     </div>
                             </div>
-							<div style="margin-top:8px;"class="container-fluid text-center box">
+							
+							<div style="margin-top:10px;"class="container-fluid text-left">
+                    <div class="jumbotron box0">
 					<div>
                         <h2>Comments and Reviews</h2>
-						<blockquote>Appreciable management . Also its located in a mesmerising location . Good job!</blockquote>
-                    </div>
-					<br><br><br><br><br><br>
-					<a href="#"><h6>Read more...</h6></a>
+						<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+    <blockquote>1. Delighted</blockquote>
+	<blockquote>2. What a match</blockquote>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+ <blockquote>3. Good team work</blockquote>
+ <blockquote>4. Luky to be here</blockquote>
+ <blockquote>5. A match we can say of</blockquote>
+      </div>
+    </div>
+    <button class="SeeMore2" data-toggle="collapse" href="#collapseTwo">Read More</button>
+  </div>
+
+</div>
+					</div>
                 </div>
+            </div>
 						
                     </div>
 					<div class="col-md-3">
@@ -187,15 +216,12 @@
 							<li>Rule 9</li>
 							<li>Rule 10</li>
 							</ul>
-                        </div>                        
-							<br><br>
-						<a href="#"><h6>Read more...</h6></a>
+                        </div>                      
 							</div>									
 					<div style=" margin-top:5px; margin-left:-25px; margin-right:0px" class="container-fluid text-center box">
                      <div><h2> T & C</h2>
-<br><br><br><br><br><br><br>
-</div>
-<a href="#"><h6>Read more...</h6></a>					 
+
+</div>					 
 					</div>
 					</div>
                     </div>

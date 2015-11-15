@@ -1,7 +1,7 @@
 
 <html>
     <head>
-        <title>Venue Sportz.com</title>
+        <title>Venue-Profile</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -11,6 +11,19 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </head>
+	
+	<script>
+$('.SeeMore2').click(function(){
+		var $this = $(this);
+		$this.toggleClass('SeeMore2');
+		if($this.hasClass('SeeMore2')){
+			$this.text('See More');			
+		} else {
+			$this.text('See Less');
+		}
+	});
+	</script>
+	
     <body>
         <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="40">
@@ -165,8 +178,6 @@
                             <h2>Contact Details</h2>
                             <h4>Phone:897481974</h4>
                         </div>
-						<br>
-						<a href="#"><h6>Read more...</h6></a>
                     </div>
                 </div>
             </div>
@@ -176,17 +187,31 @@
 			<a href="#"><button type="button" class="btn btn-info"><h3>Book Your Seats</h3></button></a>
 			</div>
 			</div>
-                <div style="margin-top:10px;"class="container-fluid text-center">
+                <div style="margin-top:10px;"class="container-fluid text-left">
                     <div class="jumbotron box">
 					<div>
                         <h2>Comments and Reviews</h2>
-						<blockquote>Appreciable management . Also its located in a mesmerising location . Good job!</blockquote>
-                    </div>
-					<br>
-					<a href="#"><h6>Read more...</h6></a>
+						<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+    <blockquote>1. Adorable. The location's prefect </blockquote>
+	<blockquote>2. The services lack quality</blockquote>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+ <blockquote>3. Good all together</blockquote>
+ <blockquote>4. Luky to be here</blockquote>
+ <blockquote>5. A venue we can talk of</blockquote>
+      </div>
+    </div>
+    <button class="SeeMore2" data-toggle="collapse" href="#collapseTwo">Read More</button>
+  </div>
+
+</div>
 					</div>
                 </div>
             </div>
+			</div>
             <div class="col-md-3">
                 <div  style="margin-top:5px ; margin-left:-35px; margin-right:0px" class="text-center table-responsive">
                     <div class="text-center capt">Upcoming<br>Tournaments</div>
@@ -226,6 +251,7 @@
                     </div>
             </div>    
         </div>
+		</div>
         <br>
         <footer>
             <div class="container-fluid">

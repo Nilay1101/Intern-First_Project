@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Academy-Profile Sportz.com</title>
+		<title>Coach-Profile</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -12,6 +12,19 @@
         
             
     </head>
+	
+	<script>
+$('.SeeMore2').click(function(){
+		var $this = $(this);
+		$this.toggleClass('SeeMore2');
+		if($this.hasClass('SeeMore2')){
+			$this.text('See More');			
+		} else {
+			$this.text('See Less');
+		}
+	});
+	</script>
+	
     <body>
         <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="40">
@@ -132,17 +145,34 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                            </div>
-							
-							<div style="margin-top:8px;"class="container-fluid text-center box">
+                    </div>
+					
+					<div style="margin-top:10px;"class="container-fluid text-left">
+                    <div class="jumbotron box0">
 					<div>
                         <h2>Comments and Reviews</h2>
-						<blockquote>Appreciable management . Also its located in a mesmerising location . Good job!</blockquote>
-                    </div>
-					<br><br><br><br><br><br>
-					<a href="#"><h6>Read more...</h6></a>
+						<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+    <blockquote>1. Adorable. The location's prefect </blockquote>
+	<blockquote>2. The services lack quality</blockquote>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+ <blockquote>3. Good all together</blockquote>
+ <blockquote>4. Luky to be here</blockquote>
+ <blockquote>5. A venue we can talk of</blockquote>
+      </div>
+    </div>
+    <button class="SeeMore2" data-toggle="collapse" href="#collapseTwo">Read More</button>
+  </div>
+
+</div>
+					</div>
                 </div>
-                </div>
+            </div>
+					
+				</div>
                 <div class="col-md-3">
                     <div>
                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="300" height="150" src="https://maps.google.com/maps?hl=en&q=Akhnoor , Jammu and Kashmir&ie=UTF8&t=satellite&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div><div><small><a href="http://premiumlinkgenerator.com/keep2share-cc">keep2share premium link generator</a></small></div></iframe>

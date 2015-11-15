@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Academy-Profile Sportz.com</title>
+        <title>Academy-Profile</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +21,17 @@ and open the template in the editor.
             });
         </script>
             
+<script>
+$('.SeeMore2').click(function(){
+		var $this = $(this);
+		$this.toggleClass('SeeMore2');
+		if($this.hasClass('SeeMore2')){
+			$this.text('See More');			
+		} else {
+			$this.text('See Less');
+		}
+	});
+	</script>
     </head>
     <body>
         <header class="header">
@@ -168,7 +179,6 @@ and open the template in the editor.
                         <div style="margin-top:-25px;margin-right:-25px"class="jumbotron details">
                             <div class="text-center">
                                 <h4>Coaches Information</h4>
-								<a href="#"><h6>Read more...</h6></a>
                             </div>						
                         </div>
                     </div>
@@ -178,11 +188,11 @@ and open the template in the editor.
                    <div class="jumbotron details">
 							<h4>About Us</h4>
                                 <h4>Accreditation / Rated By Newspaper / Achievements </h4>
-								 <a href="#"><h6>Read more...</h6></a>
+								 
                             </div>
                             <div style="margin-top:-25px;"class="jumbotron details">
                                 <h4>Fee Structure and other rules</h4>
-								 <a href="#"><h6>Read more...</h6></a>
+								
                             </div>
 							<div style="margin-top:-25px;"class=" ">
                                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
@@ -214,7 +224,23 @@ and open the template in the editor.
 							<br><br>
                             <div style="margin-top:-35px;"class="jumbotron details">
                                 <h4>Comments/ Reviews</h4>
-								 <a href="#"><h6>Read more...</h6></a>
+								<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+    <blockquote>1. Adorable. The location's prefect </blockquote>
+	<blockquote>2. The services lack quality</blockquote>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+ <blockquote>3. Good all together</blockquote>
+ <blockquote>4. Luky to be here</blockquote>
+ <blockquote>5. An acadmey we can talk of</blockquote>
+      </div>
+    </div>
+    <button class="SeeMore2" data-toggle="collapse" href="#collapseTwo">Read More</button>
+  </div>
+
+</div>
                             </div>  
                 </div>           
                 <div class="col-md-3">	
@@ -262,7 +288,7 @@ and open the template in the editor.
                    </div>	
                  <div style="margin-top:-20px;margin-left:-25px"class="jumbotron details">
 				 <h4>Nearby Academies</h4>
-				 <a href="#"><h6>Read more...</h6></a>
+				
                  </div>
 							 
                 </div>
