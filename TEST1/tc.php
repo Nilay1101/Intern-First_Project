@@ -3,17 +3,22 @@
 <html>
 <head>
 <title>| T & C |</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<script src="js/jquery.min.js"></script>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<?php include 'includeheader.php'; ?>
+<link href="about/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="about/js/jquery.min.js"></script>
+<link href="about/css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-<script src="js/wow.min.js"></script>
+<link href="about/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="about/js/wow.min.js"></script>
 <script>
  	new WOW().init();
 </script>
 </head>
 <body>
+<header class="header" >
+        <?php include 'header.php';?>
+        <?php //include 'breadcrumb.php';?>    
+        </header>
 			<div class="about">
 				<div class="container">
 					<div class="about-top-grids">

@@ -3,17 +3,22 @@
 <html>
 <head>
 <title>| About |</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<script src="js/jquery.min.js"></script>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<?php include 'includeheader.php'; ?>
+<link href="about/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="about/js/jquery.min.js"></script>
+<link href="about/css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-<script src="js/wow.min.js"></script>
+<link href="about/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="about/js/wow.min.js"></script>
 <script>
  	new WOW().init();
 </script>
 </head>
 <body>
+<header class="header" >
+        <?php include 'header.php';?>
+        <?php //include 'breadcrumb.php';?>    
+        </header>
 			<div class="about">
 				<div class="container">
 					<div class="about-top-grids">
@@ -58,17 +63,17 @@ whole new sports life " here "if you haven't done it yet!</p>
 							
 							<div class="about-latest-news-grids text-center">
 								<div class="col-md-4 about-latest-news-grid   wow fadeInLeft" data-wow-delay="0.4s">
-									<a href="#" class="mask"><img class="img-responsive zoom-img" src="images/i.png" title="name" /></a>
+									<a href="#" class="mask"><img class="img-responsive zoom-img" src="about/images/i.png" title="name" /></a>
 									<h4>Pranoy Mazumdar</h4>
 									<p>Designation</p>
 								</div>
 								<div class="col-md-4 about-latest-news-grid wow fadeIn" data-wow-delay="0.5s">
-									<a href="#" class="mask"><img class="img-responsive zoom-img" src="images/i.png" title="name" /></a>
+									<a href="#" class="mask"><img class="img-responsive zoom-img" src="about/images/i.png" title="name" /></a>
 									<h4>Sivakali Mallam</h4>
 									<p>Designation</p>
 								</div>
 								<div class="col-md-4 about-latest-news-grid  wow fadeInRight" data-wow-delay="0.4s">
-									<a href="#" class="mask"><img class="img-responsive zoom-img" src="images/i.png" title="name" /></a>
+									<a href="#" class="mask"><img class="img-responsive zoom-img" src="about/images/i.png" title="name" /></a>
 									<h4>Dhaval Mehta</h4>
 									<p>Designation</p>
 									
