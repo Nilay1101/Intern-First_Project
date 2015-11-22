@@ -34,10 +34,10 @@
              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
                 <ul class="dropdown-menu inside-li">
-				<li><a href="about/about.html">1. About US</a></li>
-				    <li><a href="about/policy.html">2. Company Policies</a></li>
-                    <li><a href="about/tc.html">3. T & C</a></li>
-					<li><a href="about/faq.html">4. FAQ</a></li>
+				<li><a href="about.php">1. About US</a></li>
+				    <li><a href="policy.php">2. Company Policies</a></li>
+                    <li><a href="tc.php">3. T & C</a></li>
+					<li><a href="faq.php">4. FAQ</a></li>
                     
                 </ul>
             </li>
