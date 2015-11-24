@@ -315,7 +315,7 @@ always stay connected with them.</p><br>
                     <p style="color:black; font-size: 120%;">TheSportz.com gives a platform to all the sports academies to showcase themselves in a interactive
 and user-friendly way. All this to establish a harmony between academies and players to bring a
 change in the way sports can be played in India. Begin now, find some of the best sports academies
-available nearby and explore the sports world yourself.</p><br>
+available nearby and explore the sports world yourself.</p>
  <p style="color:black; font-size: 120%;"><strong>Explore more, Achieve more</strong>.</p>
                 </div>
                 <div class="tab-pane fade in" id='content_for_id2'>
@@ -328,7 +328,7 @@ heart of our dreams of making India a sporting nation. They can bring the change
 for nurturing and development of young sports enthusiasts and prodigies.</p><br>
 <p style="color:black; font-size: 120%;">TheSportz.com has put a step towards making it easier for sports enthusiasts to reach out to the
 best coaches nearby to groom their talent. We will do everything possible to support them to
-achieve their dreams.</p><br>
+achieve their dreams.</p>
 <p style="color:black; font-size: 120%;"><strong>Teach more, Achieve more</strong>.</p>
                 </div>
 				<div class="tab-pane fade in " id='content_for_id3'>
@@ -338,7 +338,7 @@ achieve their dreams.</p><br>
 					<p style="color:black; font-size: 120%;">The beauty of any playground or a field is that they have memories. Memories of legends
 being born, memories of common people achieving uncommon dreams.</p><br>
 <p style="color:black; font-size: 120%;">Players and teams come here to leave their legacy. We want to make sure that to realise the
-dream of a sporting nation we will assist all the sports venues to build their infrastructure.</p><br>
+dream of a sporting nation we will assist all the sports venues to build their infrastructure.</p>
 <p style="color:black; font-size: 120%;"><strong>Play more, Achieve more.</strong></p>
                 </div>
                 <div class="tab-pane fade in " id='content_for_id4'>
@@ -354,7 +354,7 @@ dream of a sporting nation we will assist all the sports venues to build their i
 you can share and learn faster than ever before. We believe that sports can only flourish in India if the
 young and old sports enthusiasts alike, come together and bring about the change you want to see.</p><br>
 					<p style="color:black; font-size: 120%;">Now sports enthusiasts can create their own sports profile and do a lot more than just playing.
-We invite all the sports enthusiasts to be a part of the dream of making India a sporting nation.</p><br>
+We invite all the sports enthusiasts to be a part of the dream of making India a sporting nation.</p>
 					<p style="color:black; font-size: 120%;"><strong>Lets play India.</strong></p>
                 </div>
                 <div class="tab-pane fade in " id='content_for_id7'>
@@ -366,7 +366,7 @@ anywhere without your teammates. In all works of life, a team is always bigger t
 					<p style="color:black; font-size: 120%;">TheSportz. com helps teams and clubs to reach their common ambitions and goals. Our idea is to
 give a platform to all the sports enthusiasts to meet and connect with players having similar interests.
 Come, lets explore teams and clubs to help you reach to your target.</p><br>
-					<p style="color:black; font-size: 120%;"><strong>Together Everyone Achieves More.</strong></p><br>
+					<p style="color:black; font-size: 120%;"><strong>Together Everyone Achieves More.</strong></p>
                 </div>
                 <div class="tab-pane fade in " id='content_for_id6'>
                     <div class="jumbotron1 text-center">
@@ -411,7 +411,7 @@ Come, lets explore teams and clubs to help you reach to your target.</p><br>
 						<p style="color:black; font-size: 120%;">Every expert was once a beginner. So dream big and start now.</p><br>
 						<p style="color:black; font-size: 120%;">Challenge yourself to compete against others and prove your mettle to the world. Participate in a
 host of sports events and tournaments. Invite your friends. Create your own event and we will help
-you to reach your goals.</p><br>
+you to reach your goals.</p>
 						<p style="color:black; font-size: 120%;"><strong>Play more, Achieve more.</strong></p><br>
                     </div>
                 </div>
@@ -428,13 +428,13 @@ you to reach your goals.</p><br>
             
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <a href="#"><img  src="images/shot01.jpg"></a>
+                    <a href="#"><img  class="img-responsive" src="images/shot01.jpg"></a>
                 </div>
                 <div class="item">
-                    <a href="#"><img  src="images/shot02.jpg" ></a>
+                    <a href="#"><img  class="img-responsive" src="images/shot02.jpg" ></a>
                 </div>
                 <div class="item ">
-                    <a href="#"><img src="images/shot03.jpg" ></a>
+                    <a href="#"><img   class="img-responsive" src="images/shot03.jpg" ></a>
                 </div>              
             </div>
             
@@ -511,17 +511,19 @@ you to reach your goals.</p><br>
 	    <a href="#"><div class="col-lg-3 text-center" style="background-image: url(images/weight.jpg); height:250px ; width:260px; opacity:0.8;  margin-left:15px"><h2 style="color:white; font-weight: bold;margin-top:125px;font-size: 170%;">Weightlifting</h2></div></a>
 	   </div>
 	   
-<div class="row" style="padding-left:120px; padding-right:120px">
-<div class="col-lg-4"><div class="find_out"><h2>Coaches</h2><hr class="hr0"></div></div>
-<div class="col-lg-4"><div class="find_out"><h2>Academies</h2><hr class="hr0"></div></div>
-<div class="col-lg-4"><div class="find_out"><h2>Venues</h2><hr class="hr0"></div></div>
-</div>
-
 <div id="part0">
 <div class="row" style="padding-left:120px; padding-right:120px" >
-        <div class="col-lg-4 text-center"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.png"></a><br><h5>T E X T</h5></div>
-		<div class="col-lg-4 text-center"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.png"></a><h5>T E X T</h5></div>
-		<div class="col-lg-4 text-center"><a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.png"></a><h5>T E X T</h5></div>
+        <div class="col-lg-4 text-center">
+		<div class="find_out"><h2>Coaches</h2><hr class="hr0"></div>
+		<a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.png"></a><br><h5>T E X T</h5></div>
+		
+		<div class="col-lg-4 text-center">
+		<div class="find_out"><h2>Academies</h2><hr class="hr0"></div>
+		<a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.png"></a><h5>T E X T</h5></div>
+		
+		<div class="col-lg-4 text-center">
+		<div class="find_out"><h2>Venues</h2><hr class="hr0"></div>
+		<a href="#"><img class="img-responsive" style="height:150px; width:350px;  border-radius:15px " src="images/shot06.png"></a><h5>T E X T</h5></div>
 </div>
 <div class="row" style="padding-left:120px; padding-right:120px ; margin-top:30px" >
         <div class="col-lg-4 text-center"><a href="#"><img class="img-responsive" style="height:150px; width:350px; border-radius:15px " src="images/shot06.png"></a><h5>T E X T</h5></div>

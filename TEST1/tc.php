@@ -28,14 +28,6 @@ $(function(){
    });
  });
 </script>
-<script> 
-$(document).ready(function(){
-    $("#show").click(function(){
-        $("#part").removeClass('hidden');
-    });
-	
-});
-</script>
 
 <style>
 * {
@@ -209,6 +201,7 @@ $(document).ready(function(){
 .contact {
   padding: 4em 0 0;
 }
+
 
 </style>
 

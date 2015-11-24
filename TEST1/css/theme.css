@@ -257,6 +257,7 @@ h3{
 	border:3px solid grey;
     border-radius: 7px;
     background-color:#F5F5F5;
+    overflow-y: scroll;
 }
 .star-box{
     //border-top: 1px solid #3f99c3;
