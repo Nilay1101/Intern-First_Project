@@ -1,35 +1,273 @@
-
-<!DOCTYPE HTML>
 <html>
-<head>
-<title>| T & C |</title>
-<?php include 'includeheader.php'; ?>
-<link href="about/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<script src="about/js/jquery.min.js"></script>
-<link href="about/css/style.css" rel="stylesheet" type="text/css" media="all" />	
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="about/css/animate.css" rel="stylesheet" type="text/css" media="all">
-<script src="about/js/wow.min.js"></script>
+    <head>
+        <title> | Document |</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=yes">
+        <?php include 'includeheader.php'; ?>
+        <link href="css/theme.css" rel="stylesheet">
+        <link href="css/jquery-ui.css" rel="stylesheet">
+        <link href="js/select2/select2.css" rel="stylesheet">
+        <link media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="css/mobile_index.css" type="text/css" rel="stylesheet" />
+        <link media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="css/mobile_header.css" type="text/css" rel="stylesheet" />
+        <script src="js/select2/select2.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+   
 <script>
- 	new WOW().init();
+$(function(){
+   $('a[href*=#]:not([href=#])').click(function() {
+       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+         var target = $(this.hash);
+         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+         if (target.length) {
+           $('html,body').animate({
+             scrollTop: (target.offset().top - 0) // adjust this according to your content
+           }, 1000);
+           return false;
+         }
+       }
+   });
+ });
 </script>
-</head>
-<body>
-<header class="header" >
+<script> 
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("#part").removeClass('hidden');
+    });
+	
+});
+</script>
+
+<style>
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+.pic {
+  border: 2px solid #fff;  
+  height: 180px;
+  width: 180px;
+  margin-top:35px;
+  margin-left:-8px;
+  overflow: hidden; 
+}
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.focus:hover {
+  border: 30px solid white;
+  border-radius: 50%;
+}
+
+.btn0 {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn0:focus, .btn0:active:focus, .btn0.active:focus {
+    outline: 0 none;
+}
+ 
+.btn0-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn0-primary:hover, .btn0-primary:focus, .btn0-primary:active, .btn0-primary.active, .open > .dropdown-toggle.btn0-primary {
+    background: #33a6cc;
+}
+ 
+.btn0-primary:active, .btn0-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn0.sharp {
+  border-radius:0;
+}
+
+.contact-head h2{
+	font-size: 4em;
+  color: #000;
+  font-family: 'DancingScript-Bold';
+  border-bottom: 1px solid #EEE;
+  display: inline-block;
+  margin: 0 0 0.2em 0;
+}
+.contact-head p{
+	color: #777;
+  font-style: italic;
+  font-size: 1em;
+  font-family: 'Raleway-SemiBold';
+}
+.contact-map iframe{
+	min-height:300px;
+	width:100%;
+	border:none;
+	margin:1.5em 0 1em;
+}
+.contact-form-row div{
+	width: 32.6%;
+	float: left;
+	margin-right: 1%;
+} 
+.contact-form-row div span,.contact-form-row2  span{
+	font-size:1.2em;
+	color:#000;
+	  font-family: 'Raleway-SemiBold';
+	text-transform:uppercase;
+	display:block;
+	padding:0 0 0.5em;
+}
+.contact-form-row div input[type="text"]{
+	width:100%;
+	padding:1em;	
+	border:1px solid #EEE;
+	-webkit-appearance:none;
+	outline:none;
+	color:#777;
+	transition:border-color 0.4s;
+	-webkit-transition:border-color 0.4s;
+	-moz-transition:border-color 0.4s;
+	-o-transition:border-color 0.4s;
+	-ms-transition:border-color 0.4s;
+}
+
+.contact-form-row div select[type="text"]{
+	width:100%;
+	padding:1em;	
+	border:1px solid #EEE;
+	-webkit-appearance:none;
+	outline:none;
+	color:#777;
+	transition:border-color 0.4s;
+	-webkit-transition:border-color 0.4s;
+	-moz-transition:border-color 0.4s;
+	-o-transition:border-color 0.4s;
+	-ms-transition:border-color 0.4s;
+}
+
+.contact-form-row div input[type="text"]:hover,.contact-form-row2 textarea:hover{
+	color:#d20962;
+	border-color:#d20962;
+}
+
+.contact-form-row div select[type="text"]:hover,.contact-form-row2 textarea:hover{
+	color:#d20962;
+	border-color:#d20962;
+}
+
+.contact-form-row div:nth-child(3){
+	margin-right:0;
+}
+.contact-form-row2 textarea{
+	width:100%;
+	padding:1em;	
+	border:1px solid #EEE;
+	-webkit-appearance:none;
+	outline:none;
+	color:#777;
+	min-height:320px;
+	resize:none;
+	transition:border-color 0.4s;
+	-webkit-transition:border-color 0.4s;
+	-moz-transition:border-color 0.4s;
+	-o-transition:border-color 0.4s;
+	-ms-transition:border-color 0.4s;
+}
+.contact-form-row2 {
+	margin-top:1em;
+}
+.contact-form input[type="submit"]{
+	background: #1B82E6;
+	color: #FFF;
+	border: none;
+	outline: none;
+	margin-top: 1em;
+  	padding: 0.3em 1em;
+  	font-size: 1.2em;
+	display: inline-block;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.contact-form input[type="submit"]:hover{
+	background: #000;
+}
+.contact {
+  padding: 4em 0 0;
+}
+
+</style>
+
+<script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+<link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
+    </head>
+	
+    <body style="background:#E4E4E4">
+        <header class="header" >
         <?php include 'header.php';?>
         <?php //include 'breadcrumb.php';?>    
         </header>
-			<div class="about">
-				<div class="container">
-					<div class="about-top-grids">
-						<div class="about-head text-center wow fadeIn" data-wow-delay="0.5s">
-							<h2>Terms & Conditions</h2>
-						</div>
-						
-						<div class="about-top-gridn  wow fadeIn" data-wow-delay="0.5s">
-						<ol>
-						<h4><li><p>Partnership with TheSportz.com</p>
-						<p><div style="margin-left:150px"><ul>
+
+<div class="row" style="margin-left:100px;margin-right:90px;margin-top:5px">
+
+<div class="col-lg-3 text-left" style="border:0px solid white;" >
+<br><br><br><br>
+
+<a href="#a"><h4>Partnership Terms</h4></a><hr>
+
+<a href="#b"><h4>Accepting Terms</h4></a><hr>
+
+<a href="#c"><h4>Subscription Terms</h4></a><hr>
+
+<a href="#x"><h4>Privacy Terms</h4></a><hr>
+
+<a href="#d"><h4>Rights and Responsibilities</h4></a><hr>
+
+<a href="#e"><h4>Advertisement Terms</h4></a><hr>
+
+<a href="#f"><h4>Owner's Rights</h4></a><hr>
+
+<a href="#i"><h4>Our Standards</h4></a><hr>
+
+<a href="#j"><h4>Security Terms</h4></a><hr>
+
+<a href="#k"><h4>Safety Terms for Users</h4></a><hr>
+
+<a href="#l"><h4>Special Provisions</h4></a><hr>
+
+<a href="#m"><h4>Mobile Device and Applicatons</h4></a><hr>
+
+<a href="#n"><h4>Amendments</h4></a><hr>
+
+<a href="#o"><h4>Defination, Terminology and Declarations</h4></a><hr>
+
+<a href="#p"><h4>Disclaimer</h4></a><hr>
+
+<a href="#q"><h4>Contact Us</h4></a><hr>
+
+</div>
+
+
+<div class="col-lg-9 text-left" style="border:0px solid white;" >
+<div ><h1 style="text-align:center">Terms & Conditions</h1></div>
+<br>
+<div id="a">
+<p><strong>1. Partnership with TheSportz.com</strong></p>
+						<p><div><ul>
 <li><p>TheSportz.com provides a range of services to our users who register with
 us. Out of sports entities in global space, TheSportz.com is open for end-toend and sophisticated partnership with sports events, event management
 organisations, sports venues, sports equipments and goods sellers and sports
@@ -41,12 +279,14 @@ acknowledged to every user.</p></li>
 and terms and conditions. This is a legal agreement between TheSportz.com
 and its users/entities with respect to all the services offered. You must read
 the Terms of Use and the Policies carefully.
-</p></li>
+</p>
 </ul></div>
-						</p></li></h4><br>
+						</p></li>
+						</div>
 						
-						<h4><li><p>Accepting terms :</p>
-						<p><div style="margin-left:150px"><ul>
+<div id="b">
+<p><strong>2. Accepting terms :</strong></p>
+						<p><div ><ul>
 						<li><p>By signing up or logging in the user agrees to all the Terms and Conditions.</p></li>
 						<li><p>Any user or entity will not avail the services and must not accept the Terms
 and conditions, if the User is not interest to follow the Terms and Policies.</p></li>
@@ -88,7 +328,7 @@ manner, or using any superstar/well known personality’s name to attain
 malicious good will among other users, then we reserve the right to remove or
 reclaim your account if we believe it is appropriate.</p></li><br>
 </ul><br>
-<p><div style="margin-left:150px">
+<p><div>
 <p>Contents in the website :</p><br><ul>
 <li><p>TheSportz.com may include hyperlinks or web links to other websites or
 content or resources. We do not have control over any web sites or resources
@@ -121,10 +361,12 @@ TheSportz.com user, user’s can modify his/her personal information at any
 time by accessing and editing through the links provided on our website,
 once they have 'Signed In'.</p></li>
 </ul>
-						</p></li></h4><br>
+						</p>
+						</div>
 						
-						<h4><li><p>Subscribe/Unsubscribe to TheSportz.com</p>
-						<p><div style="margin-left:150px"><ul>
+<div id="c">
+<p><strong>3. Subscribe/Unsubscribe to TheSportz.com</strong></p>
+						<p><div><ul>
 						<li><p>The User may terminate the legal relationship and agreements with us by
 accessing ‘deactivate your account’ services on our website at any time and
 closing the accounts for all services availed by the user or the entity.
@@ -149,11 +391,12 @@ want to again register with us it will be an easy process.</p>
 						<p>We or our partnered entities may send mails at any time, registered users may opt- 
 out of receiving notifications initiated by TheSportz.com. Unregistered users that
 do not wish to receive emails may opt-out of receiving any communications by
-following the instructions contained in all emails.</p></li></h4><br>
+following the instructions contained in all emails.</p>
+</div>
 
-						<h4><li><p>
-						Standard of User's Privacy Protection :</p>
-						<p><div style="margin-left:150px">
+<div id="x">
+<p><strong>4. Standard of User's Privacy Protection :</strong></p>
+						<p><div >
 						<p>TheSportz.com respects user’s privacy and thus is conscious of the necessity
 to protect the personally identifiable information user’s share with our
 transparent sports ecosystem. We would like to assure the user’s that we
@@ -181,15 +424,17 @@ privacy statement.</p>
 You should check this page from time to time to ensure that you are happy with any
 changes. This policy is effective from 31st September 2015.</p>
 <p>
-<div style="margin-left:150px">
+<div>
 <p>Password protection and security to all accounts :</p>
 <ul>
 <li><p>The User agrees and understands that the user is responsible for maintaining
 the confidentiality of passwords associated with its account which is created
 on our website after registration of the user.</p></li></ul></div>
-</p></li></h4><br>
+</p>
+</div>
 
-						<h4><li><p>Statement of Rights and Responsibilities</p>
+<div id="d">
+<p><strong>5. Statement of Rights and Responsibilities</strong></p>
 						<p>The Statement of Rights and Responsibilities ("Statement," "Terms," or "SRR") derives
 from our aspirations and principles towards making our sports system a candid and
 transparent one. It is our terms of service that governs our relationship with users and
@@ -197,7 +442,7 @@ others who can relate with us at TheSportz.com, or our products and services, wh
 call TheSportz Services.</p>
 <p>You own all of the content and information you share on TheSportz.com, and you can
 control how it is shared through your privacy settings. In addition:</p>
-<p><div style="margin-left:150px"><p>For content that is covered by intellectual property rights, like photos and videos 
+<p><div><p>For content that is covered by intellectual property rights, like photos and videos 
 (IP content), you specifically give us the following permission, subject to your
 privacy and application settings: you grant us a non-exclusive, transferable, sub
 licensable, royalty-free, worldwide license to use any IP content that you post on or
@@ -249,7 +494,7 @@ your home page.</p></li><br>
 <p>Liabilities of TheSportz.com :</p>
 <p>The User expressly understands and agrees that TheSportz.com and its
 affiliates or partners will not be liable to the user for:</p>
-<p><div style="margin-left:150px">
+<p><div >
 <ul type="square">
 <li><p>any direct, indirect, incidental, special consequential or exemplary 
 damages which may be incurred by the user, however caused and
@@ -268,14 +513,16 @@ website;</li>
 accurate account information; and</li>
 <li>the failure of the u  ser to keep password or account details
 secure and confidential.</li></ol></li><br></ul>
-</div></p></li></h4><br>
+</div></p>
+</div>
 
-						<h4><li><p>Advertisement content and liabilities :</p>
+<div id="e">
+<p><strong>6. Advertisement content and liabilities :</strong></p>
 						<p>About Advertisements and Other Commercial Content Served or Enhanced</p>
 						<p>Our goal is to deliver advertising and other commercial or sponsored content that
 is valuable to our users and advertisers. In order to help us do that, you agree to the
 following:</p>
-<p><div style="margin-left:150px">
+<p><div >
 <ol>
 <li><p>You give us permission to use your name, profile picture, content, and 
 information in connection with commercial, sponsored, or related content
@@ -295,7 +542,7 @@ and/or delivery of any advertising or other commercial or sponsored activity or
 content, you agree with our terms. In addition, your advertising or other
 commercial or sponsored activity or content placed on TheSportz.com or our
 publisher network will comply with our Advertising Policies.</p>
-<p><div style="margin-left:150px">
+<p><div >
 <ol>
 <li><p>If you download or use our application, you agree that from time to time, the 
 software may download and install upgrades, updates and additional
@@ -304,9 +551,11 @@ software.</p></li><br>
 <li><p>You will not modify, create derivative works of, decompile, or otherwise 
 attempt to extract source code from us, unless you are expressly permitted
 to do so under an open source license, or we give you express written
-permission.</p></li><br></ol></div></p></li></h4><br>
+permission.</p></li><br></ol></div></p>
+</div>
 
-						<h4><li><p>Legalities and owner's rights :</p>
+<div id="f">
+<p><strong>7. Legalities and owner's rights :</strong></p>
 						<p>It is imperative to mention that in the scenario of TheSportz.com or substantially all of its
 assets being acquired, the User's information will most likely also be transferred in
 connection with such acquisition. This policy is effective as of 1st October, 2015. Any
@@ -314,7 +563,7 @@ material changes in the way we uses personally identifiable information will be 
 in future versions of this Privacy Statement. Customers may submit concerns regarding
 our Privacy Statement or our privacy practices via email to : _______. We will attempt to
 respond to all concerns or inquiries within 5 working days of receipt.</p>
-<p><div style="margin-left:150px">
+<p><div>
 <ul>
 <li><p>The User acknowledges and agrees that TheSportz.com owns all legal right,
 title and interest in and in relation to the content published on the Website.
@@ -353,10 +602,12 @@ operation of law or otherwise.</p></li><br>
 <li><p>We reserve all rights not expressly granted to you</p></li><br>
 <li><p>You will comply with all applicable laws when using or accessing 
 TheSportz.com.</p></li><br>
-</ol></div></p></li></h4><br>
+</ol></div></p>
+</div>
 
-						<h4><li><p>Services conformity and benchmarked standards by TheSportz.com :</p>
-						<p><div style="margin-left:150px">
+<div id="i">
+<p><strong>8. Services conformity and benchmarked standards by TheSportz.com :</strong></p>
+						<p><div >
 						<ul>
 						<li><p>The Services will be available to the User subsequent to the registration by
 the User and subject to payment of fees by the user or entity if applicable.
@@ -367,7 +618,7 @@ TheSportz.com will not be held liable for consequences arising out of such
 suspension of Services.</p></li><br>
 						</ul></div></p>
 						<p>Information and service warranty by TheSportz.com :</p>
-						<p><div style="margin-left:150px">
+						<p><div >
 						<ul>
 						<li><p>Nothing in these t erms will exclude or limit TheSportz.com's warranty or
 liability for losses which may not be lawfully excluded or limited by
@@ -388,14 +639,15 @@ Certain information on the website or otherwise, including but not limited
 to advertisements and sponsored content may be protected by intellectual
 property rights that are owned by the sponsors or advertisers or partners
 who provide that content to TheSportz.com.</p></li></ul></div></p>
-						</li></h4><br>
-						
-						<h4><li><p>Security :</p>
+</div>
+
+<div id="j">
+<p><strong>9. Security :</strong></p>
 						<p>We are committed to ensuring that your information is secure. In order to prevent
 unauthorised access or disclosure we have put in place suitable physical, electronic and
 managerial procedures to safeguard and secure the information we collect online.</p>
 <p>Privacy and personal information :</p>
-<p><div style="margin-left:150px"><ul>
+<p><div><ul>
 <li><p>For information about TheSportz.com data protection practices, please read
 TheSportz Privacy Policy. This policy explains how TheSportz.com treats
 Personal Information, Sensitive Personal Information and protects the
@@ -414,7 +666,7 @@ release us from any and all claims arising out of or related to the use of inter
 information in any unauthorised manner.</p>
 <p>What we collect?</p>
 <p>We may collect the following informations :</p>
-<p><div style="margin-left:150px"><ul type="square">
+<p><div ><ul type="square">
 <li>Name and sports preferences.</li>
 <li>Contact information including email address.</li>
 <li>Demographic information such as postcode, preferences and interests.</li>
@@ -430,7 +682,7 @@ providers. Some information collected is not explicitly submitted by the user; t
 log user browser-type related information, IP address, requested URL, referring URL, and
 timestamp.</p>
 <p>What we do with the information we gather?</p>
-<p><div style="margin-left:150px"><ul type="square">
+<p><div ><ul type="square">
 <li>Internal record keeping.</li>
 <li>We may use the information to improve our products and services.</li>
 <li>We may periodically send promotional emails about new products, special offers or 
@@ -467,9 +719,11 @@ your computer or any information about you, other than the data you choose to sh
 with us. As already mentioned, you can choose to accept or decline cookies. Most web
 browsers automatically accept cookies, but you can usually modify your browser setting to
 decline cookies if you prefer. This may prevent you from taking full advantage of the
-website.</p></li></h4><br>
+website.</p>
+</div>
 
-						<h4><li><p>Safety at TheSportz.com :</p>
+<div id="k">
+<p><strong>10. Safety at TheSportz.com :</strong></p>
 						<p>We do our best to keep TheSportz.com safe, but we cannot guarantee it. We need your
 help to keep TheSportz.com safe, which includes the following commitments by
 you:</p>
@@ -495,10 +749,12 @@ discriminatory.</p></li><br>
 <li><p>You will not do anything that could disable, overburden, or impair the proper 
 working or appearance of TheSportz.com, such as a denial of service attack or
 interference with page rendering or other TheSportz.com functionality.</p></li><br>
-<li><p>You will not facilitate or encourage any violations of this Statement or our policies.</p></li><br></ul></p></li></h4><br>
+<li><p>You will not facilitate or encourage any violations of this Statement or our policies.</p></li><br></ul></p>
+</div>
 
-						<h4><li><p>Special Provisions Applicable to Users Outside India but are living in India (and
-using our services) :</p>
+<div id="l">
+<p><strong>11. Special Provisions Applicable to Users Outside India but are living in India (and
+using our services) :</strong></p>
 <p>We strive to create a global community with consistent standards for everyone, but 
 we also strive to respect local laws. The following provisions apply to users and
 non-users who interact with TheSportz.com from outside India :</p>
@@ -506,9 +762,11 @@ non-users who interact with TheSportz.com from outside India :</p>
 <li><p>You consent to having your personal data transferred to and processed by
 TheSportz.com in India.</p></li><br>
 <li><p>If you are living in India but are not a resident or citizen of India, will be responsible for
-any action taken for or against them under the jurisdiction of Indian law.</p></li><br></ul></li></h4><br>
+any action taken for or against them under the jurisdiction of Indian law.</p></li><br></ul>
+</div>
 
-						<h4><li><p>Mobile Number, Other Devices and Payments terms :</p>
+<div id="m">
+<p><strong>12. Mobile Number, Other Devices and Payments terms :</strong></p>
 						<p>We will provide our mobile services for free, but please be aware that your carrier's normal
 rates and fees, such as text messaging and data charges, will still apply.</p>
 						<p>In the event you change or deactivate your mobile telephone number, you will update
@@ -519,9 +777,11 @@ application) their devices with any information that is visible to them on
 TheSportz.com.</p>
 						<p><ul type="square">
 						<li><p>In future, if you make a payment on TheSportz.com, you agree to our Payments Terms
-unless it is stated that other terms apply.</p></li></ul></p></li></h4><br>
+unless it is stated that other terms apply.</p></li></ul></p>
+</div>
 
-						<h4><li><p>Amendments :</p>
+<div id="n">
+<p><strong>13. Amendments :</strong></p>
 						<p><ol>
 						<li><p>We'll notify you before we make changes to these terms and give you the 
 opportunity to review and comment on the revised terms before continuing
@@ -530,9 +790,11 @@ to use our services.</p></li><br>
 incorporated by this statement.</p></li><br>
 						<li><p>Your continued use of TheSportz.com s  ervices, following notice of the
 changes to our terms, policies or guidelines, constitutes your acceptance of
-our amended terms, policies or guidelines.</p></li><br></ol></p></li></h4><br>
+our amended terms, policies or guidelines.</p></li><br></ol></p>
+</div>
 
-						<h4><li><p>Definitions, terminologies and declarations :</p>
+<div id="o">
+<p><strong>14. Definitions, terminologies and declarations :</strong></p>
 						<p><ol><li><p>By "TheSportz.com" or” TheSportz.com Services” we mean the features and 
 services we make available, including through our website at
 www.TheSportz.com or in direct partnership with entities. We reserves the
@@ -548,10 +810,12 @@ content or information that you or partner, in some cases, can retrieve from
 TheSportz.com.</p></li><br>
 						<li><p>By "use" we mean use, run, copy, publicly perform or display, distribute, 
 modify, translate, and create derivative works of.</p></li><br>
-						<li><p>By “Trademarks” we mean the list of trademarks   or copyrights we own.</p></li><br></ol></p></li></h4><br>
-						
-						<h4><li><p>Disclaimer :</p>
-						<p><div style="margin-left:150px"><ul>
+<li><p>By “Trademarks” we mean the list of trademarks   or copyrights we own.</p></li><br></ol></p>
+</div>
+
+<div id="p">
+<p><strong>15. Disclaimer :</strong></p>
+						<p><div ><ul>
 						<li><p>We  may make changes to the Terms at its own discretion without prior
 notice. When these changes are made, TheSportz.com will make a new copy
 of the Terms and any new terms will be made available to the User.</p></li><br>
@@ -594,9 +858,11 @@ to this Privacy Policy and/or the way we use our User's personally identifiable
 information, then we will post a prominent notice of the nature of such change on the
 first page of this Privacy Policy and on our home page. User is responsible for reviewing
 this Privacy Policy periodically to ensure that Users are aware of any changes to it. User’s
-continued use of the site indicates User consent to any changes to this Privacy Policy.</p></li></h4><br>
+continued use of the site indicates User consent to any changes to this Privacy Policy.</p>
+</div>
 
-						<h4><li><p>Contact us :</p>
+<div id="q">
+<p><strong>16. Contact us :</strong></p>
 						<p>If you have any questions about any services, terms, the privacy practices of this website,
 or if users want to exercise any of the rights that user are given under our policies, user or
 representative of the entities can contact us at :</p>
@@ -640,14 +906,15 @@ get back to you as soon as possible.</p>
 								<input type="submit" value="Send" />
 							</form>
 						</div>
-</p></li></h4><br>
-</ol>						
-							
-						</div>
-							</div>
-				</div>
-			</div>
+</p>
+</div>
 
-	</body>
+</div>
+
+
+
+</div>
+
+
+</body>
 </html>
-
