@@ -12,19 +12,6 @@
         
             
     </head>
-	
-	<script>
-$('.SeeMore2').click(function(){
-		var $this = $(this);
-		$this.toggleClass('SeeMore2');
-		if($this.hasClass('SeeMore2')){
-			$this.text('See More');			
-		} else {
-			$this.text('See Less');
-		}
-	});
-	</script>
-	
     <body>
         <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="40">

@@ -12,6 +12,7 @@ and open the template in the editor.
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-theme.min.css" rel="stylesheet">
         <link href="css/academy-profile.css" rel="stylesheet">
+		<link rel="stylesheet" href="themes/bars-1to10.css">
         <link href="css/header.css" rel="stylesheet">
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -19,8 +20,7 @@ and open the template in the editor.
             $(document).ready(function(){
                 $('[data-toggle="tooltip"]').tooltip();
             });
-        </script>
-            
+        </script>            
 <script>
 $('.SeeMore2').click(function(){
 		var $this = $(this);
@@ -53,10 +53,66 @@ $(document).ready(function(){
 	});
 });
 </script>
+
+<script src="jquery.barrating.min.js"></script>
+<script type="text/javascript">
+   $(function() {
+      $('#example').barrating({
+        theme: 'bars-1to10'
+      });
+   });
+</script>
+<script>
+$(function(){
+   $('a[href*=#]:not([href=#])').click(function() {
+       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+         var target = $(this.hash);
+         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+         if (target.length) {
+           $('html,body').animate({
+             scrollTop: (target.offset().top - 0) // adjust this according to your content
+           }, 1000);
+           return false;
+         }
+       }
+   });
+ });
+</script>
 <style type="text/css">
     .show-read-more .more-text{
         display: none;
     }
+	
+	.btn0 {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn0:focus, .btn0:active:focus, .btn0.active:focus {
+    outline: 0 none;
+}
+ 
+.btn0-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn0-primary:hover, .btn0-primary:focus, .btn0-primary:active, .btn0-primary.active, .open > .dropdown-toggle.btn0-primary {
+    background: #33a6cc;
+}
+ 
+.btn0-primary:active, .btn0-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn0.sharp {
+  border-radius:0;
+}
+
 </style>
     </head>
     <body>
@@ -100,38 +156,36 @@ $(document).ready(function(){
         </header>
         <br><br><br><br><br><br><br>
                 
-        <div class="container-fluid">
-            <div class="jumbotron profile-jumbo">
+        <div class="container-fluid" >
+            <div class="jumbotron profile-jumbo" style="padding-bottom:10px">
                 <div class="row">
                     <div class="col-md-3 ">
                         <img src="images/academy-img.jpg" class="img-rounded">
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <h2 style="color:white"class="">XYZ Academy</h2>
                         <div class="row rating">
-                            <div class="col-md-3"></div>
-                            <div class="col-md-9">
-							
-                                <div class="row pull-right">
-								<a href="#"><h4>Write a review</h4></a>
-                                <div class="rat-star col-md-1">
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Poor"><img class="image-responsive"src="images/greenstar.png"></a>
-                                </div>
-                                <div class="rat-star col-md-1">
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Average"><img class="image-responsive"src="images/greenstar.png"></a>
-                                </div>
-                                <div class="rat-star col-md-1">
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Good"><img class="image-responsive"src="images/greenstar.png"></a>
-                                </div>
-                                <div class="rat-star col-md-1">
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Very Good"><img class="image-responsive"src="images/greenstar.png"></a>
-                                </div>
-                                <div class="rat-star col-md-1">
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Excellent"><img class="image-responsive"src="images/blank.png"></a>
-                                </div>
-                                </div>
+                            <div class="col-md-3">
+							<a href="#review"><button class="btn0 btn0-primary">Write Review</button></a></div>
+                            <div class="col-md-4">
+                            <div class="row">							
+<div class="br-wrapper br-theme-fontawesome-stars" style="border:0px solid white; padding-top:10px">
+  <select id="example">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  
+</div>
+</div>
+</div>
                             </div>
                         </div>
+						<div class="col-md-1 text-left">
+<button class="btn btn-success" style="padding: 10px 20px; border: 0 none;border-radius:0px; font-weight: 1000; letter-spacing: 1px; text-transform: uppercase;">4</button>
+</div>
                     </div>
                 </div>
             </div>
@@ -248,7 +302,7 @@ $(document).ready(function(){
                     </div>
                             </div>
 							<br><br>
-                            <div style="margin-top:-35px;"class="jumbotron details">
+                            <div id="review" style="margin-top:-35px;"class="jumbotron details">
                                 <h4 >Reviews & Comments</h4>
 								<br>
 								<div class="accordion" id="accordion2">

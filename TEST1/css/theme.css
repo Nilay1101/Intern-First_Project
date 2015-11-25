@@ -288,6 +288,15 @@ background: #1e6dce url("img/pattern.png");
 border: none;
 
 }
+
+.hr1{
+width:400px;
+    height: 5px;
+background: #1e6dce url("img/pattern.png");
+border: none;
+
+}
+
 .coach{
     text-align: center;
 }

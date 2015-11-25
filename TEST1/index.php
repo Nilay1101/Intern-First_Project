@@ -186,9 +186,6 @@ $(document).ready(function(){
         <?php include 'header.php';?>
         <?php //include 'breadcrumb.php';?>    
         </header>
-   <div class="site-wrap">
- 
- </div>
 <div class="container">
 <div class="row">
 <div class="col-lg-1 text-center"></div>
@@ -227,16 +224,11 @@ $(document).ready(function(){
        <div class="icons" style="width:100%; padding: 5px; border: 2px solid seagreen ; margin-bottom: 6px; background:#458B00 url('..img/pattern.png')"></div>           
         <div>
             
-            <div class="jumbotron" style="margin-top:-6px; height:200px;background-image: url(images/search2.jpg)";>
-                <h2 style="margin-top:-20px"class="text-center">
-                    Hello!<br>
-                    Here you can search different Academy, Coach, Tournament<br>
-                    
-                </h2>
+            <div class="jumbotron" style="margin-top:-6px; height:200px;background-image: url(images/search.jpg)";>
                 
                 <form action="index.php" method="POST">
                     
-                    <div class="form-group form-inline text-center has-feedback" style="margin-top: 15px;">                       
+                    <div class="form-group form-inline text-center has-feedback" style="margin-top: 25px;">                       
                         <div style="margin-right:-10px; "class="input-group">
                                 <!--<input input="text" id="sports_type" name="sports_type" class="form-control" style="//margin-top: 15px; width: 180px;" placeholder="Sports Type...">-->
                             <div class="form-group">
@@ -282,11 +274,12 @@ $(document).ready(function(){
             </div>
         </div>
         <div style="margin-top:-30px"class="row star-box">
+		<div class="find_out" style="margin-top:-10px"><h1>Explore the Sportz</h1></div>
+		 <hr class="hr1">
             <div class="col-sm-1" ></div>
-			<div style="margin-top:20px"class="col-sm-4 pull-left">	
+			<div style="margin-top:0px"class="col-sm-4 pull-left">	
 					
 <div class="hex-row even">
-<h2>Explore the Sportz</h2>
 <br>
         <div class="hex" data-toggle="tab" href="#content_for_id1"><div class="top"></div><div class="middle"><div class="themeText">ACADEMIES</div><img class="themeIcon" class="image-responsive" src="images/Academy.png" alt="ACADEMIES"></div><div class="bottom"></div></div>
         <div class="hex" data-toggle="tab" href="#content_for_id2"><div class="top"></div><div class="middle"><div class="themeText">COACHES</div><img class="themeIcon" class="image-responsive" src="images/Coach.png" alt="COACHES"></div><div class="bottom"></div></div>
@@ -304,7 +297,7 @@ $(document).ready(function(){
 			<br>
 			<br><br>
 			<br><br>
-            <div class="col-sm-6 tab-content content-box text-center">
+            <div class="col-sm-6 tab-content content-box text-center" style="margin-top:-80px">
                 <div class="tab-pane fade in active" id='content_for_id1'>
                     <div class="jumbotron1 text-center">
                         <h3>Academies</h3>
@@ -490,9 +483,9 @@ you to reach your goals.</p>
             </div>
         </div>
         <br>  -->
+		<div class="find_out" style="margin-top:-30px"><h1>Explore Various Sports In Your City</h1></div>
+		<hr class="hr">
 		<div class="row padding" style="padding-left:120px ; padding-right:120px">
-		<div class="find_out"><h1>Explore Various Sports In Your City</h1></div>
-        <hr class="hr">
 		</div>
        <br>
 	   <div class="row" style="padding-left:120px; padding-right:120px">
