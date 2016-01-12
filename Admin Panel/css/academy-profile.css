@@ -1,0 +1,139 @@
+//@import url(http://fonts.googleapis.com/css?family=Ubuntu:200,300,400);
+@font-face{
+ font-family: "Ubuntu";
+}
+body{
+    font-family: Ubuntu;
+    font-weight: 200;
+}
+
+.tab-content{
+    margin-top: -40px;
+}
+.nav{
+    //background-color: #3f99c3;
+    //color: white;
+}
+.multipletabs{
+    border-radius: 10px;
+    background-color: #3f99c3;
+    border-color: #3f99c3;
+    color: white;
+    height: 700px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+
+.nav-tabs li{
+    margin-top: -20px;
+    margin-left: -1px;
+}
+.nav-tabs li>a{
+    font-size: 135%;
+    color: white;
+    border: 0px solid white;
+    border-radius: 6px;
+}
+.multi-details{
+    background-color: transparent;
+    color: white;
+}
+
+.details{
+    background-color: #3f99c3;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+.multipletabs:hover,.details:hover{
+    transition: linear 0.3s;
+    transform: scale(1.015);
+}
+.profile-jumbo{
+    background-image: url('../images/img1.jpg');
+    background-size: 100%;
+    margin-top: 20px;
+}
+
+
+.img-rounded{
+    box-shadow: 4px 4px 4px 4px rgba(20,20,20,0.35);
+    
+}
+.fac-tick{
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 3px;
+    //margin-top: 180px;
+    height: 60px;
+    
+}
+.facility{
+    margin-top: 180px;
+}
+
+.fac-tick img{
+    width: 50px;
+    //margin-left: 30px;
+    //margin: 30px;
+    //background-color: green;
+    //border-radius: 15px;
+}
+
+.carousel-indicators li{
+    border-radius: 20px;
+    border-color: yellow;
+    width: 40px;
+    height: 40px;
+    text-indent: 0;
+    background: yellow;
+    color: #3f99c3;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+    
+    
+}
+
+.carousel-indicators li.active{
+    border-radius: 20px;
+    border-color: #3f99c3;
+    width: 40px;
+    height: 40px;
+    background: #3f99c3;
+    color:yellow;
+    padding-top: 10px;
+    margin-left: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+.carousel-control:hover{
+    color: yellow;
+}
+
+
+.item img{
+    width: 100%;
+    //height: 170px;
+    //max-height: 170px;
+}
+
+.box{
+    margin-top: 15px;
+}
+
+.capt {
+    background-color: #3f99c3;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}

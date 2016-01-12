@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:200,300,400);
+@font-face{
+ font-family: "Ubuntu";
+}
+body{
+    font-family: Ubuntu;
+    font-weight: 200;
+}
+
+.start{
+    margin-top: 140px;
+}
+.name{
+    //background-color: #3f99c3;
+    margin-top: 150px;
+    background:#3f99c3 url('../images/pattern.png') top repeat ;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+.jumbotron{
+    background-color: #3f99c3;
+    color: white;
+}
+
+.profile-jumbo{
+    background-image: url('../images/img1.jpg');
+    background-size: 100%;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.circle{
+    background-color: #14a43e;
+    border-radius: 80px;
+    height: 160px;
+    width: 160px;
+    padding-top: 43px;
+    margin-left: 4.5%;
+    margin-top: 15px;
+    color:white;
+    background:#ffe53c url('../images/pattern.png') top repeat ;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),  
+        inset 0 -12px 30px rgba(0,0,0,0.2);
+}
+.circle:hover{
+    transform: scale(1.03);
+    transition: linear 0.3s;
+}
+.circle a:hover{
+    text-decoration: none;
+    
+}
+.btn-lg{
+    width: 100%;
+}
